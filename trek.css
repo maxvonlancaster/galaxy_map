@@ -1,0 +1,87 @@
+/* Font Families */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/* Colors */
+:root {
+  --bg-color: #000000;
+  --text-color: #FFFFFF;
+  --link-color: #FFD700;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--bg-color);
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: var(--bg-color);
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: var(--link-color);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Content Styles */
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-top: 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--bg-color);
+  text-align: center;
+  padding: 20px;
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
